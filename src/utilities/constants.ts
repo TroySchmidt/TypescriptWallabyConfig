@@ -1,0 +1,9 @@
+export const CHARCOAL = '#454546';
+export const REGAL_BLUE = '#043C6B';
+export const CERULEAN = '#1079AB';
+export const INACTIVE_GREY = '#9C9CB0';
+export const SOFT_GREY = '#F2F4F7';
+export const RISK_RED = '#DC3938'; // Jasper
+export const RISK_ORANGE = '#EF5D2F'; // Flamingo 
+export const RISK_YELLOW = '#F2C42F'; // Saffron
+export const RISK_GREEN = '#10AB99'; // Light Green
