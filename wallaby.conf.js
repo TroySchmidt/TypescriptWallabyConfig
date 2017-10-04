@@ -1,7 +1,7 @@
 module.exports = function (wallaby) {
   return {
     files: [
-      'src/**/*.+(ts*|js*|css|svg)',
+      'src/**/*.+(ts*|js*|css|svg|png)',
       '!src/**/*.test.js*',
       '!src/**/*.test.ts*',
       '!src/registerServiceWorker.ts',
@@ -21,7 +21,6 @@ module.exports = function (wallaby) {
 
     setup: (wallaby) => {
       const jestConfig = require('./package.json').jest;
-      delete jestConfig.testEnvironment;
       wallaby.testFramework.configure(jestConfig);
     },
 
